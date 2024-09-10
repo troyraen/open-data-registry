@@ -1,5 +1,5 @@
-Name: "Unofficial, Unblurred Coadds of the Wide-field Infrared Survey Explorer (unWISE)"
-Description: "unWISE is a reprocessing of Wide-field Infrared Survey Explorer (WISE) data to improved depth and spatial resolution. WISE is a NASA Medium Explorer satellite in low-Earth orbit conducting an all-sky astronomical imaging survey. It imaged in four infrared bands centered at 3.4, 4.6, 12 and 22 microns (W1, W2, W3, and W4) starting in 2010 until the coolant was exhausted. It was reactivated in 2013 as NEOWISE and continued imaging in W1 and W2. The unWISE Time-Domain Catalog is based on 'time-resolved' coadds, each of which stacks together the WISE/NEOWISE exposures from one (biannual) sky pass."
+Name: "Unblurred Coadds of the Wide-field Infrared Survey Explorer (unWISE)"
+Description: "unWISE is a reprocessing of Wide-field Infrared Survey Explorer (WISE) data which preserves the native angular resolution and is optimized for forced photometry. WISE was a NASA satellite producing all-sky imaging in four infrared bands centered at 3.4, 4.6, 12 and 22 microns (W1, W2, W3, and W4) starting in 2010 until the coolant was exhausted in 2011. It was reactivated in 2013 as NEOWISE and continued imaging in W1 and W2 until 2024. "
 Documentation: https://irsa.ipac.caltech.edu/data/WISE/unWISE/overview.html
 Contact: https://irsa.ipac.caltech.edu/docs/help_desk.html
 ManagedBy: "NASA/IPAC Infrared Science Archive ([IRSA](https://irsa.ipac.caltech.edu)) at Caltech"
