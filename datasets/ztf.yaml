@@ -26,7 +26,11 @@ Resources:
     AccountRequired: False
 DataAtWork:
   Tutorials:
-    - Title: Notebook Tutorials
+    - Title: IRSA Notebook Tutorials
       URL: https://irsa.ipac.caltech.edu/docs/notebooks/
       AuthorName: Caltech/IPAC-IRSA
+      AuthorURL: https://irsa.ipac.caltech.edu
+    - Title: Multi-Wavelength Light Curves Tutorial
+      URL: https://nasa-fornax.github.io/fornax-demo-notebooks/light_curves/light_curve_generator.html
+      AuthorName: NASA/IPAC Infrared Science Archive (IRSA)
       AuthorURL: https://irsa.ipac.caltech.edu
