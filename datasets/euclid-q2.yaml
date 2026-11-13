@@ -1,0 +1,45 @@
+Name: 'Euclid Quick Release 2 (Q2)'
+Description: 'Euclid launched in July 2023 as a European Space Agency (ESA) mission with involvement by NASA. The primary science goals of Euclid are to better understand the composition and evolution of the dark Universe. The Euclid mission will provide space-based imaging and spectroscopy as well as supporting ground-based imaging to achieve these primary goals. These data will be archived by multiple global repositories, including IRSA, where they will support transformational work in many areas of astrophysics. Euclid Quick Release 2 (Q2), released in June 2026, contains VIS images and stellar photometry and astrometry catalogs from the Euclid Galactic Bulge Survey. Q2 focuses on a specialized observing program rather than the Wide and Deep Surveys covered by Data Release 1 (DR1).'
+Documentation: https://irsa.ipac.caltech.edu/data/Euclid/docs/overview_q2.html
+Contact: https://irsa.ipac.caltech.edu/docs/help_desk.html
+ManagedBy: "NASA/IPAC Infrared Science Archive ([IRSA](https://irsa.ipac.caltech.edu)) at Caltech"
+UpdateFrequency: The data may be presented in new ways as the products become available.
+Tags:
+  - astronomy
+  - imaging
+  - object detection
+  - satellite imagery
+  - survey
+License: https://irsa.ipac.caltech.edu/data_use_terms.html
+Citation: "If you use Euclid Q2, please follow the citation instructions provided at [https://irsa.ipac.caltech.edu/data/Euclid/docs/overview_q2.html](https://irsa.ipac.caltech.edu/data/Euclid/docs/overview_q2.html) and [https://irsa.ipac.caltech.edu/ack.html](https://irsa.ipac.caltech.edu/ack.html)."
+Resources:
+  - Description: 'data: VIS calibrated frames (science image, flag map, and noise map), background images, weight maps, and calibrated frame catalogues for the Euclid Galactic Bulge Survey science field (observation ID 067070) and two PSF calibration fields (067068 and 067071). FITS format, with XML metadata for the catalogues. The folder contents and file naming are described in the [Q2 README](https://irsa.ipac.caltech.edu/data/Euclid/q2/README.md).'
+    ARN: arn:aws:s3:::nasa-irsa-euclid-q2/q2/data
+    Region: us-east-1
+    Type: S3 Bucket
+    RequesterPays: False
+    AccountRequired: False
+  - Description: 'PSFEx_model: PSF model derived from the PSF calibration fields with PSFEx, and a document explaining how the PSF was processed.'
+    ARN: arn:aws:s3:::nasa-irsa-euclid-q2/q2/PSFEx_model
+    Region: us-east-1
+    Type: S3 Bucket
+    RequesterPays: False
+    AccountRequired: False
+  - Description: 'calibration_catalogues: calibration source catalogues, intended for calibration purposes and not suitable for statistical analyses.'
+    ARN: arn:aws:s3:::nasa-irsa-euclid-q2/q2/calibration_catalogues
+    Region: us-east-1
+    Type: S3 Bucket
+    RequesterPays: False
+    AccountRequired: False
+  - Description: 'EuclidExtractor: the EuclidExtractor tool and a Jupyter notebook for working with the data.'
+    ARN: arn:aws:s3:::nasa-irsa-euclid-q2/q2/EuclidExtractor
+    Region: us-east-1
+    Type: S3 Bucket
+    RequesterPays: False
+    AccountRequired: False
+DataAtWork:
+  Tutorials:
+    - Title: Notebook Tutorials
+      URL: https://irsa.ipac.caltech.edu/docs/notebooks/#accessing-euclid-data
+      AuthorName: Caltech/IPAC-IRSA
+      AuthorURL: https://irsa.ipac.caltech.edu

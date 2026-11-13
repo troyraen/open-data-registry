@@ -1,0 +1,124 @@
+Name: 'Euclid Data Release 1 (DR1)'
+Description: 'Euclid launched in July 2023 as a European Space Agency (ESA) mission with involvement by NASA. The primary science goals of Euclid are to better understand the composition and evolution of the dark Universe. The Euclid mission will provide space-based imaging and spectroscopy as well as supporting ground-based imaging to achieve these primary goals. These data will be archived by multiple global repositories, including IRSA, where they will support transformational work in many areas of astrophysics. The first stage of Euclid Data Release 1 (DR1), released in November 2026, includes approximately 1.8 PB of images, catalogs, and spectra from the first year of survey operations. The release covers approximately 1,900 square degrees of the Euclid Wide Survey, as well as observations of the Euclid Deep Fields, calibration fields, and Performance Verification data. Additional DR1 data products for galaxy clustering and weak lensing studies are expected in mid-2027.'
+Documentation: https://irsa.ipac.caltech.edu/data/Euclid/docs/overview_dr1.html
+Contact: https://irsa.ipac.caltech.edu/docs/help_desk.html
+ManagedBy: "NASA/IPAC Infrared Science Archive ([IRSA](https://irsa.ipac.caltech.edu)) at Caltech"
+UpdateFrequency: Additional Euclid DR1 data products are expected in mid-2027. The data may also be presented in new ways as the products become available.
+Tags:
+  - astronomy
+  - imaging
+  - object detection
+  - parquet
+  - satellite imagery
+  - survey
+License: https://irsa.ipac.caltech.edu/data_use_terms.html
+Citation: "If you use Euclid DR1, please follow the citation instructions provided at [https://irsa.ipac.caltech.edu/data/Euclid/docs/overview_dr1.html](https://irsa.ipac.caltech.edu/data/Euclid/docs/overview_dr1.html) and [https://irsa.ipac.caltech.edu/ack.html](https://irsa.ipac.caltech.edu/ack.html)."
+Resources:
+  - Description: 'RAW: Level 1 raw VIS and NISP images. FITS format, organized by Observation ID.'
+    ARN: arn:aws:s3:::nasa-irsa-euclid-dr1/dr1/RAW
+    Region: us-east-1
+    Type: S3 Bucket
+    RequesterPays: False
+    AccountRequired: False
+  - Description: 'VIS_QUAD: Level 2 calibrated VIS exposures, background maps, weight maps, and PSF files. FITS format, organized by Observation ID.'
+    ARN: arn:aws:s3:::nasa-irsa-euclid-dr1/dr1/VIS_QUAD
+    Region: us-east-1
+    Type: S3 Bucket
+    RequesterPays: False
+    AccountRequired: False
+  - Description: 'VIS: Level 2 stacked VIS images, weight maps, and PSF files. FITS format, organized by Observation ID.'
+    ARN: arn:aws:s3:::nasa-irsa-euclid-dr1/dr1/VIS
+    Region: us-east-1
+    Type: S3 Bucket
+    RequesterPays: False
+    AccountRequired: False
+  - Description: 'NIR: Level 2 calibrated NISP images, background models, and PSF files, and stacked NISP images and PSF files. FITS format, organized by Observation ID.'
+    ARN: arn:aws:s3:::nasa-irsa-euclid-dr1/dr1/NIR
+    Region: us-east-1
+    Type: S3 Bucket
+    RequesterPays: False
+    AccountRequired: False
+  - Description: 'SIR_SCIENCE_FRAME: Level 2 2D slitless spectroscopic images from NISP. FITS format, organized by Observation ID.'
+    ARN: arn:aws:s3:::nasa-irsa-euclid-dr1/dr1/SIR_SCIENCE_FRAME
+    Region: us-east-1
+    Type: S3 Bucket
+    RequesterPays: False
+    AccountRequired: False
+  - Description: 'SIR_COMBINED_SPECTRA: Level 2 extracted 1D spectra from individual dithers and combined spectra for selected sources in the MER final catalog. FITS format, organized by Tile ID.'
+    ARN: arn:aws:s3:::nasa-irsa-euclid-dr1/dr1/SIR_COMBINED_SPECTRA
+    Region: us-east-1
+    Type: S3 Bucket
+    RequesterPays: False
+    AccountRequired: False
+  - Description: 'MER: Level 2 VIS, NISP, and external ground-based image mosaics. FITS format, organized by Tile ID.'
+    ARN: arn:aws:s3:::nasa-irsa-euclid-dr1/dr1/MER
+    Region: us-east-1
+    Type: S3 Bucket
+    RequesterPays: False
+    AccountRequired: False
+  - Description: 'MER_SEG: Level 2 maps of MER image pixels assigned to detected objects. FITS format, organized by Tile ID.'
+    ARN: arn:aws:s3:::nasa-irsa-euclid-dr1/dr1/MER_SEG
+    Region: us-east-1
+    Type: S3 Bucket
+    RequesterPays: False
+    AccountRequired: False
+  - Description: 'VMPZ_HEALPIX_BIT_MASK: Level 3 bitmask maps. FITS format, organized by Tile ID.'
+    ARN: arn:aws:s3:::nasa-irsa-euclid-dr1/dr1/VMPZ_HEALPIX_BIT_MASK
+    Region: us-east-1
+    Type: S3 Bucket
+    RequesterPays: False
+    AccountRequired: False
+  - Description: 'VMPZ_HEALPIX_FOOTPRINT_MASK: Level 3 survey footprint masks for each band. FITS format, organized by Tile ID.'
+    ARN: arn:aws:s3:::nasa-irsa-euclid-dr1/dr1/VMPZ_HEALPIX_FOOTPRINT_MASK
+    Region: us-east-1
+    Type: S3 Bucket
+    RequesterPays: False
+    AccountRequired: False
+  - Description: 'VMPZ_HEALPIX_COVERAGE_MASK: Level 3 coverage masks for each band. FITS format, organized by Tile ID.'
+    ARN: arn:aws:s3:::nasa-irsa-euclid-dr1/dr1/VMPZ_HEALPIX_COVERAGE_MASK
+    Region: us-east-1
+    Type: S3 Bucket
+    RequesterPays: False
+    AccountRequired: False
+  - Description: 'VMPZ_HEALPIX_DEPTH_MAP: Level 3 MER depth maps. FITS format, organized by Tile ID.'
+    ARN: arn:aws:s3:::nasa-irsa-euclid-dr1/dr1/VMPZ_HEALPIX_DEPTH_MAP
+    Region: us-east-1
+    Type: S3 Bucket
+    RequesterPays: False
+    AccountRequired: False
+  - Description: 'VMPZ_HEALPIX_INFO_MAP: Level 3 environment and instrument information for each band. FITS format, organized by Tile ID.'
+    ARN: arn:aws:s3:::nasa-irsa-euclid-dr1/dr1/VMPZ_HEALPIX_INFO_MAP
+    Region: us-east-1
+    Type: S3 Bucket
+    RequesterPays: False
+    AccountRequired: False
+  - Description: 'VMPZ_EFFECTIVE_COVERAGE: Level 3 effective coverage masks. FITS format, organized by processing run.'
+    ARN: arn:aws:s3:::nasa-irsa-euclid-dr1/dr1/VMPZ_EFFECTIVE_COVERAGE
+    Region: us-east-1
+    Type: S3 Bucket
+    RequesterPays: False
+    AccountRequired: False
+  - Description: 'Catalogs: MER final catalog, photometric redshift catalogs, and spectroscopic catalogs organized by Tile ID. NIR and VIS catalogs of calibrated and stacked frame detections, organized by Observation ID. FITS format.'
+    ARN: arn:aws:s3:::nasa-irsa-euclid-dr1/dr1/catalogs
+    Region: us-east-1
+    Type: S3 Bucket
+    RequesterPays: False
+    AccountRequired: False
+  - Description: 'MOC: Multi-Order Coverage maps (MOCs) describing the spatial coverage of the DR1 Wide and Deep tiles, the four MER catalog subsets, and the planned Euclid survey coverage. FITS and binary format.'
+    ARN: arn:aws:s3:::nasa-irsa-euclid-dr1/dr1/MOC
+    Region: us-east-1
+    Type: S3 Bucket
+    RequesterPays: False
+    AccountRequired: False
+  - Description: 'HATS Catalogs (enhanced contributed): Euclid DR1 catalogs and combined 1D spectra in HATS format, one HATS Collection per catalog table. Parquet format.'
+    ARN: arn:aws:s3:::nasa-irsa-euclid-dr1/contributed/dr1/hats
+    Region: us-east-1
+    Type: S3 Bucket
+    RequesterPays: False
+    AccountRequired: False
+DataAtWork:
+  Tutorials:
+    - Title: Notebook Tutorials
+      URL: https://irsa.ipac.caltech.edu/docs/notebooks/#accessing-euclid-data
+      AuthorName: Caltech/IPAC-IRSA
+      AuthorURL: https://irsa.ipac.caltech.edu

@@ -61,6 +61,12 @@ Resources:
     Type: S3 Bucket
     RequesterPays: False
     AccountRequired: False
+  - Description: 'Merged Catalog (enhanced contributed): MER final catalog, photometric redshift catalogs, and spectroscopic catalogs joined on MER Object ID into a single Parquet dataset (HATS Catalog).'
+    ARN: arn:aws:s3:::nasa-irsa-euclid-q1/contributed/q1/merged_objects/hats
+    Region: us-east-1
+    Type: S3 Bucket
+    RequesterPays: False
+    AccountRequired: False
 DataAtWork:
   Tutorials:
     - Title: Notebook Tutorials
